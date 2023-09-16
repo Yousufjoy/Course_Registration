@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "image": "https://i.ibb.co/5xnvRP4/1.png",
+    "course_name": "Introduction to Programming",
+    "course_description": "Learn the fundamentals of programming with this introductory course. Covers basic concepts and problem-solving techniques.",
+    "price": "$99.99",
+    "credit_hour": 3
+  },
+  {
+    "id": 2,
+    "image": " https://i.ibb.co/PN9VZzP/2.png",
+    "course_name": "Web Development Bootcamp",
+    "course_description": "Become a web development expert with this comprehensive bootcamp. Includes HTML, CSS, and JavaScript.",
+    "price": "$199.99",
+    "credit_hour": 6
+  },
+  {
+    "id": 3,
+    "image": "https://i.ibb.co/z2C2pFZ/3.png",
+    "course_name": "Data Science Essentials",
+    "course_description": "Get started with data science and analytics. Learn Python, data visualization, and machine learning basics.",
+    "price": "$149.99",
+    "credit_hour": 4
+  },
+  {
+    "id": 4,
+    "image": "https://i.ibb.co/RpwZ9Bh/4.png",
+    "course_name": "Digital Marketing Fundamentals",
+    "course_description": "Master the essentials of digital marketing, including SEO, social media, and email marketing.",
+    "price": "$129.99",
+    "credit_hour": 3
+  },
+  {
+    "id": 5,
+    "image": "https://i.ibb.co/6NZ2yRc/5.png",
+    "course_name": "Graphic Design for Beginners",
+    "course_description": "Learn the basics of graphic design, including Adobe Photoshop and Illustrator.",
+    "price": "$79.99",
+    "credit_hour": 2
+  },
+  {
+    "id": 6,
+    "image": "https://i.ibb.co/C206Kd7/6.png",
+    "course_name": "Business Management Strategies",
+    "course_description": "Develop essential business management skills, including leadership and strategic planning.",
+    "price": "$179.99",
+    "credit_hour": 5
+  },
+  {
+    "id": 7,
+    "image": " https://i.ibb.co/PNYMQbj/7.png",
+    "course_name": "Spanish Language Course",
+    "course_description": "Learn Spanish from scratch with this comprehensive language course.",
+    "price": "$89.99",
+    "credit_hour": 2
+  },
+  {
+    "id": 8,
+    "image": "https://i.ibb.co/JyhMkWc/8.png",
+    "course_name": "Art History and Appreciation",
+    "course_description": "Explore the world of art history and gain an appreciation for various art movements and styles.",
+    "price": "$69.99",
+    "credit_hour": 2
+  },
+  {
+    "id": 9,
+    "image": "https://i.ibb.co/hy9Gf6d/9.png",
+    "course_name": "Financial Planning and Investment",
+    "course_description": "Learn how to manage your finances and make smart investment decisions for your future.",
+    "price": "$159.99",
+    "credit_hour": 4
+  }
+]
