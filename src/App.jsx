@@ -19,7 +19,7 @@ function App() {
       Swal.fire({
         position: "center",
         icon: "error",
-        title: "Credit hour remaining can not be zero or",
+        title: "Credit hour remaining can not be less than zero",
         showConfirmButton: false,
         timer: 1500,
       });
