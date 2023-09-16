@@ -1,6 +1,6 @@
 import React from "react";
 
-const Card = ({ card, courseName, creditHourCalculate }) => {
+const Card = ({ card, courseName, handleCredit }) => {
   const { image, course_name, course_description, price, credit_hour } = card;
 
   return (
@@ -20,6 +20,7 @@ const Card = ({ card, courseName, creditHourCalculate }) => {
           <button
             onClick={() => {
               courseName(course_name);
+              handleCredit(credit_hour);
             }}
           >
             Select

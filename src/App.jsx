@@ -18,16 +18,22 @@ function App() {
     }
   };
 
+  const handleCredit = (credit) => {
+    const newCreditHour = creditHour + credit;
+    if (newCreditHour !== 20) {
+      setCreditHour(newCreditHour);
+    } else {
+      alert("You Can Not exceed 20 Credit Limit!");
+    }
+  };
+
   return (
     <>
       <Header />
       <div className="flex justify-between max-w-7xl mx-auto">
-        <Cards courseName={courseName} />
+        <Cards courseName={courseName} handleCredit={handleCredit} />
         <div className="w-[250px]">
-          <Course
-            subjectName={subjectName}
-            creditHourCalculate={creditHourCalculate}
-          />
+          <Course subjectName={subjectName} creditHour={creditHour} />
         </div>
       </div>
     </>

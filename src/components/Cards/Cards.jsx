@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Card from "../Card/Card";
 
-const Cards = ({ courseName }) => {
+const Cards = ({ courseName, handleCredit }) => {
   const [cards, setCards] = useState([]);
 
   useEffect(() => {
@@ -20,7 +20,7 @@ const Cards = ({ courseName }) => {
             key={i}
             card={card}
             courseName={courseName}
-            creditHourCalculate={creditHourCalculate}
+            handleCredit={handleCredit}
           />
         );
       })}
