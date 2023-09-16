@@ -3,7 +3,7 @@
     "id": 1,
     "image": "https://i.ibb.co/5xnvRP4/1.png",
     "course_name": "Introduction to Programming",
-    "course_description": "Learn the fundamentals of programming with this introductory course. Covers basic concepts and problem-solving techniques.",
+    "course_description": "Learn the fundamentals of programming with this introductory course. Covers basic concepts ",
     "price": "$99.99",
     "credit_hour": 3
   },
@@ -19,7 +19,7 @@
     "id": 3,
     "image": "https://i.ibb.co/z2C2pFZ/3.png",
     "course_name": "Data Science Essentials",
-    "course_description": "Get started with data science and analytics. Learn Python, data visualization, and machine learning basics.",
+    "course_description": "Get started with data science and analytics. Learn Python, data visualization,",
     "price": "$149.99",
     "credit_hour": 4
   },
