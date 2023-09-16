@@ -3,6 +3,7 @@ import "./App.css";
 import Course from "./components/AddCourse/Course";
 import Cards from "./components/Cards/Cards";
 import Header from "./components/Header/Header";
+import Swal from "sweetalert2";
 
 function App() {
   const [subjectName, setSubjectName] = useState([]);
@@ -15,7 +16,7 @@ function App() {
     if (remaingValue > 0) {
       setRemainingCredit(remaingValue);
     } else {
-      alert("Credit hour remaining Can not be zero or less");
+      Swal.fire("Credit hour remaining can not be zero or less!");
     }
   };
 
@@ -26,7 +27,7 @@ function App() {
       const newCourseName = [...subjectName, name];
       setSubjectName(newCourseName);
     } else {
-      alert("This course has already been added");
+      Swal.fire("This course has already been added");
     }
   };
   // This function is for Adding credit
@@ -35,7 +36,7 @@ function App() {
     if (newCreditHour <= 20) {
       setCreditHour(newCreditHour);
     } else {
-      alert("You Can Not exceed 20 Credit Limit!");
+      Swal.fire("You Can Not exceed 20 Credit Limit!");
     }
   };
 
