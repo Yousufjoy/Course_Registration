@@ -15,7 +15,7 @@ function App() {
     if (remaingValue > 0) {
       setRemainingCredit(remaingValue);
     } else {
-      alert("Credit Cant be zero or less");
+      alert("Credit hour remaining Can not be zero or less");
     }
   };
 

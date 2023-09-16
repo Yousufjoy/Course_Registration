@@ -21,9 +21,10 @@ const Course = ({ subjectName, creditHour, remainingCredit }) => {
         })}
       </h2>
       <div className="border-t border-gray-400 my-[10px]"></div>
-      <h2 className="pl-[20px] pt-[20px] text-slate-800">
-        Total Credit hour: {creditHour}
+      <h2 className="pl-[20px] pt-[20px] text-slate-800 py-[15px]">
+        Total Credit hour : {creditHour}
       </h2>
+      <div className="border-t border-gray-400"></div>
     </div>
   );
 };

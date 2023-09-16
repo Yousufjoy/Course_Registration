@@ -10,8 +10,10 @@ const Card = ({ card, courseName, handleCredit, remaingCreditFun }) => {
         <h2 className="font-bold pt-2 px-[15px]">{course_name}</h2>
         <p className="text-gray-400 pt-3 px-[15px]">{course_description}</p>
 
-        <div className="flex justify-between px-[15px] pt-[15px]">
+        <div className="flex justify-between px-[10px] pt-[15px]">
+          <img src="../../../imgs/dollar-sign 1.png" alt="" />
           <p>{price}</p>
+          <img src="../../../imgs/Frame.png" alt="" />
           <p className="text-gray-600">Credit: {credit_hour}hr</p>
         </div>
         <br />
