@@ -13,10 +13,16 @@ function App() {
   // This function is for calculating remaining credit!
   const remaingCreditFun = (remain) => {
     const remaingValue = remainingCredit - remain;
-    if (remaingValue > 0) {
+    if (remaingValue >= 0) {
       setRemainingCredit(remaingValue);
     } else {
-      Swal.fire("Credit hour remaining can not be zero or less!");
+      Swal.fire({
+        position: "center",
+        icon: "error",
+        title: "Credit hour remaining can not be zero or",
+        showConfirmButton: false,
+        timer: 1500,
+      });
     }
   };
 
@@ -27,7 +33,13 @@ function App() {
       const newCourseName = [...subjectName, name];
       setSubjectName(newCourseName);
     } else {
-      Swal.fire("This course has already been added");
+      Swal.fire({
+        position: "center",
+        icon: "error",
+        title: "This course has already been added",
+        showConfirmButton: false,
+        timer: 1500,
+      });
     }
   };
   // This function is for Adding credit
@@ -36,7 +48,13 @@ function App() {
     if (newCreditHour <= 20) {
       setCreditHour(newCreditHour);
     } else {
-      Swal.fire("You Can Not exceed 20 Credit Limit!");
+      Swal.fire({
+        position: "center",
+        icon: "error",
+        title: "You Can Not exceed 20 Credit Limit!",
+        showConfirmButton: false,
+        timer: 1500,
+      });
     }
   };
 
