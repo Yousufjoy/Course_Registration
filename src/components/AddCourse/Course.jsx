@@ -1,10 +1,8 @@
-import React from "react";
-
-const Course = ({ subjectName, creditHour }) => {
+const Course = ({ subjectName, creditHour, remainingCredit }) => {
   return (
     <div className="bg-[white]  rounded-lg">
-      <h1 className="text-xl font-semibold text-[#2F80ED] pl-[10px] pt-[20px]">
-        Credit Hour Remaining
+      <h1 className="text-[16px] font-semibold text-[#2F80ED] pl-[10px] pt-[20px] mb-[10px]">
+        Credit Hour Remaining {remainingCredit} hr
       </h1>
 
       <div className="border-t border-gray-400"></div>

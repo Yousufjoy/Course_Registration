@@ -1,6 +1,6 @@
 import React from "react";
 
-const Card = ({ card, courseName, handleCredit }) => {
+const Card = ({ card, courseName, handleCredit, remaingCreditFun }) => {
   const { image, course_name, course_description, price, credit_hour } = card;
 
   return (
@@ -21,6 +21,7 @@ const Card = ({ card, courseName, handleCredit }) => {
             onClick={() => {
               courseName(course_name);
               handleCredit(credit_hour);
+              remaingCreditFun(credit_hour);
             }}
           >
             Select
