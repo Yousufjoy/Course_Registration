@@ -1,11 +1,11 @@
-Ans 1 : 3 Features of this project : 
+Features of this project : 
 
 1) Add courses for registration and see the course names.
 2) For each course you can see how much much credit is being added.
 3) For each student you the limit of 20 credit so you can not exceed the limit of 20 credit and also the remaining credit can not be less than 0.
 
 
-Ans 2 : How I managed states 
+How I managed states 
 
 **subjectName State**:
    - I use this state to keep a list of the names of the courses I've chosen.
